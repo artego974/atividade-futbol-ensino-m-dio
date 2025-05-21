@@ -1,8 +1,8 @@
-/* Modo claro padrão */
+/* 🌞 Modo claro padrão */
 body {
   background-color: #fff;
   color: #000;
-  font-family: italic;
+  font-family: "Segoe UI", sans-serif;
 }
 
 a, .link-body-emphasis, .text-body-emphasis,
@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6,
 .btn-outline-primary, footer a,
 .table thead th, .blockquote,
 .list-unstyled a, .btn-warning {
-  color: #00ff7f !important; /* Verde claro */
+  color: #00ff7f !important;
   border-color: #00ff7f !important;
 }
 
@@ -18,7 +18,9 @@ a:hover, .list-unstyled a:hover {
   color: #00cc66 !important;
 }
 
-.bg-body-secondary, .bg-body-tertiary, footer {
+.bg-body-secondary,
+.bg-body-tertiary,
+footer {
   background-color: #f4f4f4 !important;
 }
 
@@ -77,20 +79,17 @@ p, footer p {
   color: #666;
 }
 
-.display-5 link-body-emphasis mb-1:hover {
-  text-decoration: none;
-}
-
 #img-brasil {
   width: 90%;
 }
 
+/* Altura responsiva */
 .h-250 { height: 250px; }
 @media (min-width: 768px) {
   .h-md-250 { height: 250px; }
 }
 
-/* Botão de alternância de tema */
+/* 🌗 Botão de alternância de tema */
 #theme-toggle {
   position: fixed;
   top: 1rem;
@@ -108,18 +107,21 @@ p, footer p {
   opacity: 0.8;
 }
 
-/* Modo escuro */
+/* 🌚 Modo escuro */
 .dark-mode {
   background-color: #121212 !important;
   color: #f0f0f0 !important;
 }
-.dark-mode p {
+
+.dark-mode p,
+.dark-mode footer p {
   color: #f0f0f0;
 }
+
 .dark-mode a,
 .dark-mode .link-body-emphasis,
 .dark-mode .text-body-emphasis,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, 
+.dark-mode h1, .dark-mode h2, .dark-mode h3,
 .dark-mode h4, .dark-mode h5, .dark-mode h6,
 .dark-mode .btn-outline-primary,
 .dark-mode footer a,
@@ -127,7 +129,7 @@ p, footer p {
 .dark-mode .blockquote,
 .dark-mode .list-unstyled a,
 .dark-mode .btn-warning {
-  color: #ffeb3b !important; /* Amarelo escuro */
+  color: #ffeb3b !important;
   border-color: #ffeb3b !important;
 }
 
@@ -155,10 +157,6 @@ p, footer p {
 .dark-mode footer {
   background-color: #111;
   color: #aaa;
-}
-
-.dark-mode footer p {
-  color: #f0f0f0;
 }
 
 .dark-mode .blockquote {
