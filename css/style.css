@@ -20,6 +20,7 @@ footer a,
   border-color: #00ff7f !important;
 }
 
+
 a:hover,
 .list-unstyled a:hover {
   color: #00cc66 !important;
@@ -133,6 +134,12 @@ footer p,
 .dark-mode {
   background-color: #121212 !important;
   color: #f0f0f0 !important;
+}
+
+body.dark-mode #listaEscolhinhas .border {
+  background-color: #121212; 
+  color: #e0e0e0; 
+  border-color: #333; 
 }
 
 /* 🖋️ Texto no modo escuro */
