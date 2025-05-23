@@ -1,4 +1,4 @@
- // === TEMA ===
+ // Mudança de temas
  const toggleButton = document.getElementById("theme-toggle");
  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -22,7 +22,7 @@
    setTheme(isDark ? "light" : "dark");
  });
 
- // === ESCOLHINHAS ===
+ // cadastro de escolhinhas 
  document.addEventListener('DOMContentLoaded', function () {
    const form = document.getElementById('cadastroEscolhinha');
    const mensagem = document.getElementById('mensagem');
@@ -104,7 +104,7 @@
    exibirEscolhinhas();
  });
 
- // === REQUISITOS ===
+ // cadastro do projeto
  const formRequisitos = document.getElementById('requisitosProjeto');
  const listaRequisitos = document.getElementById('listaRequisitos');
  const mensagemRequisito = document.getElementById('mensagemRequisito');
